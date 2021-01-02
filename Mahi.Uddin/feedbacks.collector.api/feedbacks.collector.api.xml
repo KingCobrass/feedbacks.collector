@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Feedbacks.Collector.API</name>
+    </assembly>
+    <members>
+        <member name="T:Feedbacks.Collector.API.Controllers.BlogsController">
+            <summary>
+            User can add/publish blogs
+            </summary>
+        </member>
+        <member name="T:Feedbacks.Collector.API.Controllers.UsersController">
+            <summary>
+            Handles all kinds of user business
+            </summary>
+        </member>
+        <member name="M:Feedbacks.Collector.API.Controllers.UsersController.Get">
+            <summary>
+            Returns all users
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Feedbacks.Collector.API.Controllers.UsersController.Get(System.String)">
+            <summary>
+            Returns specific users
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Feedbacks.Collector.API.Controllers.UsersController.Post(Feedbacks.CollectorInterface.Users.IUser)">
+            <summary>
+            Add users
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Feedbacks.Collector.API.Controllers.UsersController.Put(System.String,Feedbacks.CollectorInterface.Users.IUser)">
+            <summary>
+            Updates user info
+            </summary>
+            <param name="userId"></param>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Feedbacks.Collector.API.Controllers.UsersController.Delete(System.String)">
+            <summary>
+            Delete User
+            </summary>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
